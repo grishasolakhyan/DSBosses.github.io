@@ -1,0 +1,37 @@
+body
+{
+	background-image: url(newyear_back.png);
+}
+button {
+  font-weight: 700;
+  color: #000504;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+  font-family: Times New Roman;
+  font-size: 16px;
+} 
+button:hover 
+{ 
+	background: rgb(53, 167, 110); 
+}
+button:active 
+{
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.tree
+{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 260px;
+}
+.toy
+{
+	position: absolute;
+	size: 40px;
+	margin-left: 260px;
+}
