@@ -3,8 +3,30 @@
 <head>
 	<title>DiplomaDownload</title>
 	<meta charset="utf-8">
+	<style>
+		a.button1 
+		{
+			font-weight: 700;
+			color: white;
+			text-decoration: none;
+			padding: .8em 1em calc(.8em + 3px);
+			border-radius: 3px;
+			background: rgb(64,199,129);
+			box-shadow: 0 -3px rgb(53,167,110) inset;
+			transition: 0.2s;
+		} 
+		a.button1:hover 
+		{ 
+			background: rgb(53, 167, 110); 
+		}
+		a.button1:active 
+		{
+			background: rgb(33,147,90);
+			box-shadow: 0 3px rgb(33,147,90) inset;
+		}
+	</style>
 </head>
 <body>
-	<p><a href="laba4.tex" download="Laba4.tex" title="Скачать">Скачать файл</a></p>
+	<p><a href="laba4.tex" download="Laba4.tex" title="Скачать" class="button1">Скачать файл</a></p>
 </body>
 </html>
