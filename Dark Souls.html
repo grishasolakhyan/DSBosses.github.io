@@ -5,32 +5,44 @@
 			a
       		{
         		text-decoration: none;
-        		color: #efa94a;
+        		color: white;
+        		margin: 0px;
       		}
 			table
 			{
 				border-collapse: collapse;
 			}
-			#logo
+			#logotext
 			{
+				position: relative;
 				font-style: Times New Roman;
 				font-size: 50px;
 				color: #fffafa;
-				margin-left: 120px;
+				margin-left: 0px;
+				text-align: center;
+				top: 40px;
 			}
 			#pages
 			{
+				position: relative;
+				margin-right: 0px;
+				margin-top: 30px;
+				margin-bottom: 50px;
+				color: #fffafa;
+				left: -235px;
+				bottom: -20px;
 				font-style: Times New Roman;
 				font-size: 30px;
-				color: #fffafa;
-				margin-left: 120px;
-				position: absolute;
-				bottom: 0;
+				text-align: center;
 			}
 			table
 			{
-				margin-left: 120px;
-				margin-bottom: 150px;
+				position: relative;
+				margin-bottom: 0px;
+				top: 10px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 30px;
 			}
 			td
 			{
@@ -39,40 +51,157 @@
 				align-self: center;
 				text-align: center; 
 				border: 1px solid #ffcbb6;
+				font-size: 20px;
 			}
 			tr
 			{
 				height: 120px;
 				vertical-align: top;
 			}
+			.header
+			{
+				width: 1920px;
+				height: 80px;
+				background: black;
+				margin-left: -8px;
+				position: fixed;
+				top: 0px;
+				z-index: 9;
+			}
+			#namepage
+			{
+				color: white;
+				position: fixed;
+				font-family: FRANKLIN GOTHIC MEDIUM;
+				font-size: 32px;
+				left: 850px;
+				top: -10px;
+				z-index: 9;
+			}
+			#logo2
+			{
+				top: 6px;
+			}
+			#menu
+			{
+				position: fixed;
+				top: 0px;
+				left: 360px;
+			}
+			#text1
+			{
+				color: white;
+				position: absolute;
+				top: 13px;
+				left: 100px;
+				font-family: FRANKLIN GOTHIC MEDIUM;
+				font-size: 32px;
+			}
+			#author
+			{
+				color: white;
+				position: fixed;
+				font-family: FRANKLIN GOTHIC MEDIUM;
+				font-size: 20px;
+				left: 100px;
+				top: 44px;	
+				z-index: 9;	
+			}
+			.picmenu
+			{
+				margin-left: -3px;
+				transition: 0.3s;
+			}
+			.picmenu:hover
+			{
+				transform: scale(1.2);
+			}
+			#textmenu
+			{
+				color: #efa94a;
+			}
 		</style>
 	</head>
-	<body>
-		<div id="logo"><p>DARK SOULS (2011)</p></div>
-		<body style="background-image: url(ds1_back.png)">
-		<table style="position: top:60px">
+	<body style="background-image: url(ds1_back.png)">
+
+		<div class="header">
+				<div id='logo2'><a href="index.html" target="_self"><img src="sun_logo.png" width="80"></a></div>
+				<div id="text1"><a href="index.html" target="_self"><font color="orange">П</font>ОРТФОЛИО</a></div>
+				<div id="menu" align="center">
+					<a href="Dark Souls.html" target="_self"><img src="ds1logo.png" class="picmenu" width="80" title="Боссы Dark Souls"></a>
+					<a href="Dark Souls 2.html" target="_self"><img src="ds2logo.png" class="picmenu" width="80" title="Боссы Dark Souls 2"></a>
+					<a href="Dark Souls 3.html" target="_self"><img src="ds3logo.png" class="picmenu" width="80" title="Боссы Dark Souls 3"></a>
+					<a href="elka.html" target="_self"><img src="elkalogo.png" class="picmenu" width="80" title="Интерактивная ёлка"></a>
+					<a href="download.html" target="_self"><img src="labslogo.png" class="picmenu" width="80" title="Результаты лабораторных работ"></a>
+					<a href="https://www.dvfu.ru/" target="_blank"><img src="fefulogo.png" class="picmenu" width="80" title="ДВФУ"></a>
+				</div>
+			</div>
+			<div id="author" align="center">Григорий Солахян</div>
+			<div id="namepage" align="center"><p><a href="Dark Souls.html" target="_self">DARK SOULS</a></p></div>
+
+		<div id="logotext"><p>DARK SOULS (2011)</p></div>
+		
+		<table>
 			<tr style="height: 30px">
-				<td colspan="4"><p><font color="#fffafa" face="Times New Roman">Обязательные боссы!!</font></p></td>
+				<td colspan="4"><p><font color="#fffafa" face="Times New Roman">Обязательные боссы</font></p></td>
 			</tr>
 			<tr>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Демон_Прибежища"><img src="demon2.png">Демон Прибежища</p></td>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Горгулья"><img src="gor2.png">Горгулья</p></td>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Квилег_Ведьма_Хаоса"><img src="quilag2.png">Квилег Ведьма Хаоса</p></td>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Сиф_Великий_Волк"><img src="sif2.png">Сиф Великий Волк</p></td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Демон_Прибежища"><img src="demon2.png">Демон Прибежища</a></td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Горгулья"><img src="gor2.png">Горгулья</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Квилег_Ведьма_Хаоса"><img src="quilag2.png">Квилег Ведьма Хаоса</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Сиф_Великий_Волк"><img src="sif2.png">Сиф Великий Волк</td>
+				</div>
 			</tr>
 			<tr>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Вихрь"><img src="pinwheel2.png">Вихрь</p></td>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Железный_голем"><img src="irongolem2.png">Железный голем</p></td>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Орнштейн_Драконоборец_и_Палач_Смоуг"><img src="or_sm2.png">Орнштейн и Смоуг</p></td>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Ложе_Хаоса"><img src="chaos2.png">Ложе Хаоса</p></td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Вихрь"><img src="pinwheel2.png">Вихрь</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Железный_голем"><img src="irongolem2.png">Железный голем</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Орнштейн_Драконоборец_и_Палач_Смоуг"><img src="or_sm2.png">Орнштейн и Смоуг</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Ложе_Хаоса"><img src="chaos2.png">Ложе Хаоса</td>
 			</tr>
 			<tr>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Нагой_Сит"><img src="sit2.png">Нагой Сит</p></td>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Четыре_Короля"><img src="4kings2.png">Четыре Короля</p></td>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Нито_Повелитель_Могил"><img src="nito2.png">Нито Повелитель Могил</p></td>
-				<td><p><a href="https://darksouls.fandom.com/ru/wiki/Гвин_Повелитель_Пепла"><img src="gwyn2.png">Гвин Повелитель Пепла</p></td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Нагой_Сит"><img src="sit2.png">Нагой Сит</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Четыре_Короля"><img src="4kings2.png">Четыре Короля</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Нито_Повелитель_Могил"><img src="nito2.png">Нито Повелитель Могил</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Гвин_Повелитель_Пепла"><img src="gwyn2.png">Гвин Повелитель Пепла</td>
 			</tr>
 		</table>
-		<div id="pages"><p><a href="index.html" target="_self">Main Menu</a></p></div>
+
+		<table>
+			<tr style="height: 30px">
+				<td colspan="4"><p><font color="#fffafa" face="Times New Roman">Опциональные боссы</font></p></td>
+			</tr>
+			<tr>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Демон_Прибежища"><img src="op1.png">Демон Телец</a></td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Горгулья"><img src="op2.png">Демон Капра</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Квилег_Ведьма_Хаоса"><img src="op3.png">Разверстый дракон</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Сиф_Великий_Волк"><img src="op4.png">Лунная бабочка</td>
+				</div>
+			</tr>
+			<tr>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Железный_голем"><img src="op5.png">Бродячий демон</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Вихрь"><img src="op6.png">Неутомимый воин</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Железный_голем"><img src="op7.png">Мудрый демон Огня</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Орнштейн_Драконоборец_и_Палач_Смоуг"><img src="op8.png">Демон-стоног</td>
+			</tr>
+			<tr>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Ложе_Хаоса"><img src="op9.png">Гвиндолин Темное Солнце</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Нагой_Сит"><img src="op10.png">Присцилла Полукровка</td>
+			</tr>
+		</table>
+
+		<table>
+			<tr style="height: 30px">
+				<td colspan="4"><p><font color="#fffafa" face="Times New Roman">Боссы в DLS Artorias of the Abyss</font></p></td>
+			</tr>
+			<tr>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Демон_Прибежища"><img src="d1.png">Страж святилища</a></td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Горгулья"><img src="d2.png">Арториас Путник Бездны</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Квилег_Ведьма_Хаоса"><img src="d3.png">Манус Отец Бездны</td>
+				<td><a href="https://darksouls.fandom.com/ru/wiki/Сиф_Великий_Волк"><img src="d4.png">Черный дракон Каламит</td>
+				</div>
+			</tr>
+		</table>
+
+		<div id="pages"><a href="index.html" target="_self">Main Menu</a></div>
 	</body>
 </html>

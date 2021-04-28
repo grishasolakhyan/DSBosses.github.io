@@ -5,7 +5,32 @@
 			a
       		{
         		text-decoration: none;
+        		color: white;
       		}
+      		.header
+			{
+				width: 1920px;
+				height: 80px;
+				background: black;
+				margin-left: -8px;
+				position: fixed;
+				top: 0px;
+			}
+			.picmenu
+			{
+				margin-left: -3px;
+				transition: 0.3s;
+			}
+			.picmenu:hover
+			{
+				transform: scale(1.2);
+			}
+			#menu
+			{
+				position: fixed;
+				top: 0px;
+				left: 360px;
+			}
       		#pages
 			{
 				font-style: Times New Roman;
@@ -16,16 +41,83 @@
 				bottom: 0;
 
 			}
+			#text1
+			{
+				color: white;
+				position: absolute;
+				top: 13px;
+				left: 100px;
+				font-family: FRANKLIN GOTHIC MEDIUM;
+				font-size: 32px; 
+			}
+			#logo
+			{
+				font-family: FRANKLIN GOTHIC MEDIUM;
+				font-size: 50px;
+				color: #fffafa;
+				margin-left: 0px;
+				top: 10px;
+			}
+			#logo2
+			{
+				top: 3px;
+			}
+			#author
+			{
+				color: white;
+				position: fixed;
+				font-family: FRANKLIN GOTHIC MEDIUM;
+				font-size: 20px;
+				left: 100px;
+				top: 44px;	
+			}
+			#backpic
+			{
+				position: absolute;
+				top: 80px;
+			}
+			#namepage
+			{
+				color: white;
+				position: fixed;
+				font-family: FRANKLIN GOTHIC MEDIUM;
+				font-size: 32px;
+				left: 850px;
+				top: -10px;
+
+			}
+			#menupos
+			{
+				position: relative;
+				top: 80px;
+				text-align: center;
+				font-size: 40px;
+				margin-top: 0px;
+			}
 		</style>
 	</head>
-	<body>
-		<body style="background-image: url(back_pic.png)">
-		<p align="center" style="font-size: 60px"><font color="#fffafa" face="Times New Roman">DARK SOULS BOSSES</font></p>
-		<p align="center" style="font-size: 40px"><a href="Dark Souls.html" target="_self"><font color="#fffafa" face="Times New Roman">Dark Souls</font></a></p>
-		<p align="center" style="font-size: 40px"><a href="Dark Souls 2.html" target="_self"><font color="#fffafa" face="Times New Roman">Dark Souls 2</font></a></p>
-		<p align="center" style="font-size: 40px"><a href="Dark Souls 3.html" target="_self"><font color="#fffafa" face="Times New Roman">Dark Souls 3</font></a></p>
-		<p align="center" style="font-size: 40px"><a href="elka.html" target="_self"><font color="#fffafa" face="Times New Roman">Elka</font></a></p>
-		<p align="center" style="font-size: 40px"><a href="download.html" target="_self"><font color="#fffafa" face="Times New Roman">Для диплома</font></a></p>
+	<body style="background-image: url(back_pic.png)" >
+			<div class="header">
+				<div id='logo2'><a href="index.html" target="_self"><img src="sun_logo.png" width="80"></a></div>
+				<a href="index.html" target="_self"><div id="text1"><font color="orange">П</font>ОРТФОЛИО</div></a>
+				<div id="menu" align="center">
+					<a href="Dark Souls.html" target="_self"><img src="ds1logo.png" class="picmenu" width="80" title="Боссы Dark Souls"></a>
+					<a href="Dark Souls 2.html" target="_self"><img src="ds2logo.png" class="picmenu" width="80" title="Боссы Dark Souls 2"></a>
+					<a href="Dark Souls 3.html" target="_self"><img src="ds3logo.png" class="picmenu" width="80" title="Боссы Dark Souls 3"></a>
+					<a href="elka.html" target="_self"><img src="elkalogo.png" class="picmenu" width="80" title="Интерактивная ёлка"></a>
+					<a href="download.html" target="_self"><img src="labslogo.png" class="picmenu" width="80" title="Результаты лабораторных работ"></a>
+					<a href="https://www.dvfu.ru/" target="_blank"><img src="fefulogo.png" class="picmenu" width="80" title="ДВФУ"></a>
+				</div>
+			</div>
+			<div id="author" align="center">Григорий Солахян</div>
+		<div id="namepage" align="center"><p><a href="index.html" target="_self">DARK SOULS BOSSES</a></p></div>
+		<div id="menupos">
+			<p><a href="Dark Souls.html" target="_self"><font color="#fffafa" face="Times New Roman">Dark Souls</font></a></p>
+			<p><a href="Dark Souls 2.html" target="_self"><font color="#fffafa" face="Times New Roman">Dark Souls 2</font></a></p>
+			<p><a href="Dark Souls 3.html" target="_self"><font color="#fffafa" face="Times New Roman">Dark Souls 3</font></a></p>
+			<p><a href="elka.html" target="_self"><font color="#fffafa" face="Times New Roman">Интерактивная ёлка</font></a></p>
+			<p><a href="download.html" target="_self"><font color="#fffafa" face="Times New Roman">Лабораторные работы</font></a></p>
+		</div>
 		<div id="pages" style="margin-bottom: 20px"><p><a href="https://www.dvfu.ru/" target="_blank"><font color="#2c75ff" face="Times New Roman">FEFU</font></a></p></div>
 		<div id="pages" style="margin-left: 620px"><p style="font-size: 25px"><font color="#fffafa" face="Times New Roman">Студент группы Б8117-09.03.02. Солахян Григорий Паргевич</font></p></div>
 	</body>
